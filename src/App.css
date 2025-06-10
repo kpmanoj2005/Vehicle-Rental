@@ -1,0 +1,181 @@
+.logo   {
+ /* Logo */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 0px;
+top: 0px;
+
+
+}
+.head{
+  color: #2563eb; /* Blue color */
+position: absolute;
+
+width: 192px;
+height: 60px;
+left: 42px;
+top: 3.5%;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 0%;
+/* or 38px */
+
+align-items: start;
+text-align: start;
+
+color: #000000;
+
+
+
+
+
+}
+h2{
+    font-size: 28px;
+}
+.col {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    text-align: center; 
+    
+}
+
+.car{
+    height: 190px;
+    width: 600px;
+    position: absolute;
+    left: 110px;
+    top: 325px;
+}
+.bike{
+    width: 640px;
+    height: 250px;
+position: absolute;
+left: 110px;
+top: 510px;
+}
+
+  
+.login-container {
+  background-color: rgb(255, 255, 255);
+  padding: 2.2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 310px;
+  text-align: center;
+  position: absolute; /* Position the container absolutely */
+  bottom: 100px; /* Distance from the bottom */
+  right: 200px; /* Distance from the right */
+  left: 910px;
+  font-family: Arial, sans-serif;
+}
+  
+  .login-container h1 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+    
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #7a7a7a;
+  }
+  
+  .social-login {
+    margin-top: 1.5rem;
+  }
+  
+  .social-login p {
+    margin-bottom: 1rem;
+    
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center; /* Vertically center the icon and text */
+    justify-content: flex-start; /* Align items to the left */
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    text-align: center;
+  }
+
+  
+  .social-button:hover {
+    background-color: #a6a6a6; /* Darker gray on hover */
+  }
+  
+  .social-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Space between icon and text */
+  }
+  .pic{
+    width: 20px;
+    height: 20px; 
+  }
+input::placeholder {
+  color: #999; /* Light gray color for placeholder text */
+  font-style: italic; /* Optional: Italicize placeholder text */
+}
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px; /* Adjust as needed */
+  width: 18px; /* Adjust icon size */
+  height: 18px; /* Adjust icon size */
+  
+}
+
+.input-with-icon input {
+  width: 100%;
+  padding: 0.5rem 0.5rem 0.5rem 2rem; /* Add padding to the left for the icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

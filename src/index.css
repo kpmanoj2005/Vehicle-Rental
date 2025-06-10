@@ -1,0 +1,72 @@
+@import url('https://fonts.cdnfonts.com/css/porter-sans-block');
+.main{
+  /* Car And Bike Rental */
+
+position: absolute;
+width: 623px;
+height: 303px;
+left: 110px;
+top: 90px;
+
+font-family: 'Porter Sans Block';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 130%;
+
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+
+}
+.left{
+  
+  /* Unforgettable journeys start here */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 681px;
+height: 120px;
+left: 800px;
+top: 65px;
+
+font-family: 'Playwrite US Trad';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 93px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.log{
+/* Login */
+
+position: absolute;
+width: 119.32px;
+height: 39.13px;
+left: 1108px;
+top: 267px;
+
+font-family: 'Post No Bills Colombo ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 45px;
+text-transform: uppercase;
+
+color: #000000;
+
+
+}
+
