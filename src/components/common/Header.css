@@ -1,0 +1,19 @@
+.header {
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
+}
+
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #2a5cff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
