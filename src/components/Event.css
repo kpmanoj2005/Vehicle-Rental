@@ -1,0 +1,46 @@
+.event-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-container h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.event-content {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.event-placeholder {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.event-placeholder h3 {
+  color: #3498db;
+  margin-bottom: 1rem;
+}
+
+.event-placeholder ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-placeholder li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.event-placeholder li:last-child {
+  border-bottom: none;
+}

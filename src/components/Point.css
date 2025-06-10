@@ -1,0 +1,166 @@
+/* Base Styles */
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Card Styles */
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.pickup-card {
+  border-left: 4px solid #4aaa4d; /* Green for pickup */
+}
+
+.dropoff-card {
+  border-left: 4px solid #2196F3; /* Blue for dropoff */
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.location-icon {
+  margin-right: 15px;
+}
+
+.icon-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #4CAF50; /* Green for pickup */
+}
+
+.dropoff-card .icon-dot {
+  background: #2196F3; /* Blue for dropoff */
+}
+
+.location-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Form Styles */
+.selection-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.selection-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.selection-label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.selection-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  appearance: none;
+  background-color: white;
+  font-size: 16px;
+}
+
+.separator {
+  height: 1px;
+  background-color: #eee;
+  margin: 10px 0;
+}
+
+/* Button Styles */
+.book-ride-button {
+  display: block;
+  width: 200px;
+  padding: 15px;
+  margin: 30px auto;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-ride-button:hover {
+  background-color: #45a049;
+}
+
+.book-ride-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Switch Button */
+.switch-button {
+  width: 40px;
+  height: 40px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  align-self: center;
+  transition: all 0.3s;
+}
+
+.switch-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .form-container {
+    flex-direction: column;
+  }
+  
+  .card {
+    max-width: 100%;
+  }
+}

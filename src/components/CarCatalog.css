@@ -1,0 +1,241 @@
+.car-catalog {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.catalog-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.car-type-section {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.type-heading {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #444;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.cars-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.car-card {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.car-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.2rem 1.5rem 0;
+}
+
+.car-info {
+  flex: 1;
+}
+
+.car-name {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.car-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.stars {
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.star-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.review-count {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  color: #222;
+}
+
+.like-button svg {
+  width: 24px;
+  height: 24px;
+  transition: all 0.2s ease;
+}
+
+.like-button:hover svg {
+  stroke: #ed3f3f;
+}
+
+.like-button.liked svg {
+  fill: #ed3f3f;
+  stroke: #ed3f3f;
+}
+
+.car-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.car-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.car-card:hover .car-image img {
+  transform: scale(1.05);
+}
+
+.car-specs {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.spec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.spec svg {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 0.3rem;
+  color: #555;
+}
+
+.car-details {
+  padding: 0 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.9rem;
+}
+
+.detail-label {
+  color: #666;
+  font-weight: 500;
+}
+
+.detail-value {
+  color: #333;
+  font-weight: 600;
+}
+
+.car-footer {
+  padding: 1.2rem 1.5rem;
+  background: #f9f9f9;
+  border-top: 1px solid #eee;
+}
+
+.price-section {
+  margin-bottom: 1.2rem;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.price-label {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.price-value {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #333;
+  font-weight: 600;
+}
+
+.rent-button {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  width: 100%;
+  padding: 0.8rem;
+  background: #0044ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.rent-button:hover {
+  background: #022b93;
+}
+
+@media (max-width: 768px) {
+  .cars-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .catalog-title {
+    font-size: 2rem;
+  }
+  
+  .type-heading {
+    font-size: 1.5rem;
+  }
+}
